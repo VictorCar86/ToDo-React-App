@@ -1,0 +1,12 @@
+.TodoTitle {
+    height: 78px;
+    background-color: #a7936d;
+}
+.TodoTitle h1 {
+    margin: 0;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 2px 2px 0 #7a7a7a;
+}

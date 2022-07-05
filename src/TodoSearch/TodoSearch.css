@@ -1,0 +1,16 @@
+.TodoSearch {
+    width: 100%;
+    background-color: #D8CCA3;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.TodoSearch input {
+    height: 35px;
+    margin-top: 12px;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 1px solid #9a9483;
+    font-family: monospace;
+    font-weight: bold;
+}

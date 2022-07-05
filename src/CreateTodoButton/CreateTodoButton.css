@@ -1,0 +1,19 @@
+.CreateTodoButton {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #B09B71;
+    border-radius: 25px;
+    background-color: #D8CCA3;
+    color: #675a40;
+    font-size: 3.5rem;
+    bottom: 30px;
+    right: 15px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(64,18,23,0.5);
+    box-shadow: 0px 0px 12px 0px rgb(64 18 23 / 50%)
+}
+.CreateTodoButton:active {
+    transform: rotate(180deg);
+    transition: 0.2s;
+}

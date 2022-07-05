@@ -1,0 +1,15 @@
+.TodoWithoutTodos__title {
+    font-size: 2rem;
+    margin: 25px 0;
+    text-shadow: 0 0 8px #000000;
+    color: white;
+}
+.TodoWithoutTodos__image {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-image: url("../assets/todo_example.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

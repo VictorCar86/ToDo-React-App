@@ -1,0 +1,10 @@
+.Icon-container {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.IconSvg {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+}

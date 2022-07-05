@@ -1,0 +1,11 @@
+.TodoList-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    min-height: 85.6vh;
+    font-size: 1.6rem;
+    background-color: #EDDFB3;
+}

@@ -1,0 +1,38 @@
+.TodoItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0 25px;
+    background-color: #D8CCA3;
+    border: 2px solid #B09B71;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.TodoItem-check {
+    display: inline-block;
+    background-image: url("../assets/icons/icons8-unchecked-checkbox-48.png");
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.TodoItem-check:active {
+    transform: scale(0.7);
+}
+.TodoItem-check--completed {
+    background-image: url("../assets/icons/icons8-checked-checkbox-48.png");
+}
+.TodoItem-text {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 10px 22px;
+    min-height: 50px;
+    line-height: 22px;
+    width: 150px;
+    color: white;
+    text-shadow: 1.6px 1px 0 #7a7a7a;
+}
