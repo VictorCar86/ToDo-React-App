@@ -1,5 +1,5 @@
 {
-  "name": "create-react-app",
+  "name": "todo-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://VictorCar86.github.io/ToDo-with-React"
+  "homepage": "./"
 }
