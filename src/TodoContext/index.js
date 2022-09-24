@@ -12,7 +12,7 @@ function TodoProvider(props){
     } = useLocalStorage("TODOS_V1", []);
 
     const checkTodo = thisText => {
-        const todoIndex = todos.findIndex(todo => todo.text == thisText);
+        const todoIndex = todos.findIndex(todo => todo.text === thisText);
         let thisTodos = [...todos];
         thisTodos[todoIndex].completed = !thisTodos[todoIndex].completed;
         setTodos(thisTodos);
@@ -28,7 +28,7 @@ function TodoProvider(props){
     }
 
     const deleteTodo = thisTodo => {
-        const todoIndex = todos.findIndex(todo => todo.text == thisTodo);
+        const todoIndex = todos.findIndex(todo => todo.text === thisTodo);
         let thisTodos = [...todos];
         thisTodos.splice(todoIndex, 1)
         setTodos(thisTodos);

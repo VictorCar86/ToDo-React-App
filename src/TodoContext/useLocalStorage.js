@@ -38,7 +38,7 @@ function useLocalStorage(itemName, initialValue){
         onError(error)
       }
     }, 1000)
-  }, []);
+  }, [initialValue, itemName]);
 
   const saveItem = newItems => {
     try {
