@@ -1,11 +1,15 @@
 # 📄 ToDo-React-App
 
-Simple but functional To-Do app in which you can create, delete or save tasks on local storage in order to have a better order of your time. You are able to add descriptions to yours tags if you want.
+Simple but functional To-Do app in which you can create, delete or save tasks on local storage in order to have a better order of your time. You are able to add descriptions to yours tags if you want. Project made with mobile only architecture.
 
 ### Tools used:
 - React - <img src="https://skills.thijs.gg/icons?i=react" width="18px">
 - Vanilla CSS - <img src="https://skills.thijs.gg/icons?i=css" width="18px">
 - HTML - <img src="https://skills.thijs.gg/icons?i=html" width="18px">
+
+## Watch the project online 👇
+
+🔗 [ToDo-React-App](https://react-app-to-do.netlify.app/)
 
 ## This project was created with Create React App
 
